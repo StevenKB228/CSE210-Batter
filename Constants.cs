@@ -7,23 +7,23 @@ namespace cse210_batter_csharp
     /// </summary>
     public static class Constants
     {
-        public const int MAX_X = 800;
+        public const int MAX_X = 900;
         public const int MAX_Y = 600;
         public const int FRAME_RATE = 30;
 
-        public const int DEFAULT_SQUARE_SIZE = 20;
+        public const int DEFAULT_SQUARE_SIZE = 40;
         public const int DEFAULT_FONT_SIZE = 20;
         public const int DEFAULT_TEXT_OFFSET = 4;
 
-        public const string IMAGE_BRICK = "./Assets/brick-3.png";
+        public const string IMAGE_BRICK = "./Assets/brick-6.png";
         public const string IMAGE_PADDLE = "./Assets/bat.png";
-        public const string IMAGE_BALL = "./Assets/ball.png";
+        public const string IMAGE_BALL = "./Assets/ball 2.png";
 
         public const string SOUND_START = "./Assets/start.wav";
         public const string SOUND_BOUNCE = "./Assets/boing.wav";
         public const string SOUND_OVER = "./Assets/over.wav";
 
-        public const int BALL_X = MAX_X / 2;
+        public const int BALL_X = MAX_X / 125;
         public const int BALL_Y = MAX_Y - 125;
 
         public const int BALL_DX = 8;
